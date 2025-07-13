@@ -14,7 +14,7 @@ const Cart: React.FC<CartProps> = ({ onCheckout }) => {
       <div className="min-h-screen bg-gray-50 py-16">
         <div className="container mx-auto px-4 text-center">
           <ShoppingCart size={64} className="mx-auto text-gray-400 mb-4" />
-          <h2 className="text-2xl font-bold text-gray-900 mb-4">Your cart is empty</h2>
+          <h2 className="text-2xl font-bold text-gray-900 mb-4">Your cart is empty.</h2>
           <p className="text-gray-600 mb-8">Start shopping to add items to your cart</p>
           <button className="bg-indigo-600 hover:bg-indigo-700 text-white px-8 py-3 rounded-lg font-semibold transition-colors">
             Continue Shopping
